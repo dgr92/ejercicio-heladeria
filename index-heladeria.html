@@ -1,0 +1,46 @@
+</head>
+
+<body>
+
+    <script src="ejercicio-heladeria.js"></script>
+
+    <h1> Heladería </h1>
+
+    <form>
+        <fieldset>
+            <legend><b> Datos Cliente </b></legend>
+            <b> Nombre Cliente: </b>
+            <input id="name"></input> </br>
+
+            <b> Telefono Cliente: </b>
+            <input id="tlfn"></input> </br>
+
+            <b> E-mail Cliente: </b>
+            <input id="email"></input> </br>
+
+        </fieldset>
+
+    </br>
+
+        <fieldset>
+            <legend> Elige tu helado: </legend>
+            <b><font size="5"> Sabor: </font></b> </br>
+            <input name="sabor" type="radio" value="Vainilla"></input> Vainilla </br>
+            <input name="sabor" type="radio" value="Chocolate"></input> Chocolate </br>
+            <input name="sabor" type="radio" value="Mixto"></input> Mixto </br></br>
+
+            <b><font size="5"> Recipiente: </font></b> </br>
+                <input name="recipiente" type="radio" value="Copa"></input> Copa </br>
+                <input name="recipiente" type="radio" value="Tarrina"></input> Tarrina </br></br>
+
+            <b><font size="5"> Extras: </font></b> </br>
+                <input name="extras" type="checkbox" value="Caramelo"></input> Caramelo </br>
+                <input name="extras" type="checkbox" value="Kitkat"></input> Kitkat </br>
+                <input name="extras" type="checkbox" value="Chocolate"></input> Chocolate </br></br>
+
+        </fieldset></br>
+
+        <button type="button" onclick="sendData()"> Enviar datos </button>
+
+    </form>
+</body>
